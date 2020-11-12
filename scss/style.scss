@@ -1,0 +1,26 @@
+// === import-Fonts ===
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+// === /import-Fonts ===
+
+// === import-Files ===
+@import "./normalize.scss";
+// === /import-Files ===
+
+// === @mixin ===
+@mixin font-for_top-logo {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+@mixin font-size_small {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+// === / @mixin ===
+
+// === TODO: Header ===
+.header {
+   
+}
+
+// === /Header ===
