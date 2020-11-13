@@ -303,3 +303,229 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  padding: 0px 150px 0px 150px;
+  background: #fff9f9; }
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header-logo {
+    display: flex;
+    justify-content: flex-start; }
+    .header-logo__icon {
+      width: 35px;
+      height: 36.23px; }
+    .header-logo__text {
+      margin-left: 10px;
+      align-items: center;
+      display: flex; }
+      .header-logo__text-first {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0b132a; }
+      .header-logo__text-second {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0b132a;
+        font-weight: bold; }
+  .header-nav__text {
+    word-spacing: 35px; }
+    .header-nav__text a {
+      text-decoration: none;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f5665; }
+  .header-login__in {
+    margin-right: 30px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4f5665;
+    text-decoration: none; }
+  .header-login__up {
+    padding: 13px 40px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4f5665;
+    color: #f53855;
+    text-decoration: none;
+    border: 1px solid #f53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px; }
+  .header-login__up:hover {
+    background: #f53855;
+    color: #fff;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s; }
+
+.a-first {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .a-first-left {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 355px;
+    margin-right: 40px; }
+    .a-first-left-text-heading {
+      display: flex;
+      align-items: flex-end;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 70px;
+      color: #0b132a; }
+    .a-first-left-text p {
+      margin-top: 20px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f5665;
+      color: #4f5665; }
+    .a-first-left__link {
+      margin-top: 50px;
+      width: 96px;
+      height: 26px;
+      padding: 17px 77px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f5665;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 25px;
+      color: #fff;
+      text-decoration: none;
+      background: #f53838;
+      border-radius: 10px; }
+    .a-first-left__link:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05); }
+  .a-first-right img {
+    width: 545px;
+    height: 340px; }
+
+.s-first {
+  margin-top: 90px;
+  width: auto;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 10px; }
+  .s-first-content {
+    padding-top: 72.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .s-first-content-users {
+      display: flex; }
+      .s-first-content-users__img {
+        width: 55px;
+        height: 55px; }
+      .s-first-content-users__text {
+        margin-left: 36px; }
+        .s-first-content-users__text-top {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 30px;
+          /* identical to box height, or 120% */
+          color: #0b132a; }
+        .s-first-content-users__text-bottom {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4f5665;
+          font-size: 20px;
+          line-height: 30px; }
+    .s-first-content-locations {
+      display: flex; }
+      .s-first-content-locations__img {
+        width: 55px;
+        height: 55px; }
+      .s-first-content-locations__text {
+        margin-left: 36px; }
+        .s-first-content-locations__text-top {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 30px;
+          /* identical to box height, or 120% */
+          color: #0b132a; }
+        .s-first-content-locations__text-bottom {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4f5665;
+          font-size: 20px;
+          line-height: 30px; }
+    .s-first-content-servers {
+      display: flex; }
+      .s-first-content-servers__img {
+        width: 55px;
+        height: 55px; }
+      .s-first-content-servers__text {
+        margin-left: 36px; }
+        .s-first-content-servers__text-top {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 30px;
+          /* identical to box height, or 120% */
+          color: #0b132a; }
+        .s-first-content-servers__text-bottom {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #4f5665;
+          font-size: 20px;
+          line-height: 30px; }
