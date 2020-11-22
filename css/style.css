@@ -1247,11 +1247,12 @@ body {
       .a-third-bottom-block2-tabs {
         margin-top: 30px; }
         .a-third-bottom-block2-tabs-1, .a-third-bottom-block2-tabs-2, .a-third-bottom-block2-tabs-3, .a-third-bottom-block2-tabs-4, .a-third-bottom-block2-tabs-5, .a-third-bottom-block2-tabs-6 {
-          display: flex; }
+          display: flex;
+          margin: 5px 0; }
           .a-third-bottom-block2-tabs-1__text, .a-third-bottom-block2-tabs-2__text, .a-third-bottom-block2-tabs-3__text, .a-third-bottom-block2-tabs-4__text, .a-third-bottom-block2-tabs-5__text, .a-third-bottom-block2-tabs-6__text {
             margin-left: 20px; }
       .a-third-bottom-block2__h1 {
-        margin-top: 90px;
+        margin-top: 50px;
         width: 100px;
         height: 30px;
         font-family: Rubik;
