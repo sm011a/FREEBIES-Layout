@@ -1180,7 +1180,7 @@ body {
       margin: 5px 0;
       line-height: 20px; }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 499px) {
   body {
     padding: 0px 10px; }
   .header-nav {
@@ -1241,6 +1241,8 @@ body {
       .a-second-right-text p {
         width: 80%;
         line-height: 25px; }
+  .a-third-top__h1 {
+    width: 100%; }
   .a-third-top__p {
     width: 100%; }
   .a-third-bottom {
@@ -1281,7 +1283,7 @@ body {
         .a-fourth-bottom__imgs img {
           width: 50%; }
   .a-fifth {
-    width: 93%;
+    width: 90%;
     margin-top: 20px;
     padding: 0 10px;
     justify-content: space-around; }

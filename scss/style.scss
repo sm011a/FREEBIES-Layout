@@ -1268,7 +1268,7 @@ body {
         }
     }
 }
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 499px) {
     body {
         padding: 0px 10px;
     }
@@ -1374,6 +1374,9 @@ body {
     }
     .a-third {
         &-top {
+            &__h1{
+                width: 100%;
+            }
             &__p {
                 width: 100%;
             }
@@ -1444,7 +1447,7 @@ body {
         }
     }
     .a-fifth {
-        width: 93%;
+        width: 90%;
         margin-top: 20px;
         padding: 0 10px;
         justify-content: space-around;
@@ -1483,7 +1486,8 @@ body {
         }
     }
 
-    .footer {margin-bottom: 100px;
+    .footer {
+        margin-bottom: 100px;
         &-left {
             width: 80%;
             &-logo {
